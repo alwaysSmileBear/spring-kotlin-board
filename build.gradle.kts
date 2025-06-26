@@ -27,6 +27,8 @@ dependencies {
 	// 로그 추가
 	implementation("io.github.microutils:kotlin-logging-jvm:3.0.5")
 
+	// Swagger 추가
+	implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.5.0")
 
 	runtimeOnly("com.h2database:h2")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
